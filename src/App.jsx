@@ -11,6 +11,7 @@ import NotFound from "./Components/NotFound/NotFound.jsx";
 import AuthContextProvider from "./Components/Context/AuthContextProvider.jsx";
 import GuardIn from "./Components/Guard/GuardIn.jsx";
 import GuardOut from "./Components/Guard/GuardOut.jsx";
+import Guard from "./Components/Guard/Guard.jsx";
 import Cart from "./Components/Cart/Cart.jsx";
 import Categories from "./Components/Categories/Categories.jsx";
 import Brands from "./Components/Brands/Brands.jsx";
@@ -23,9 +24,9 @@ import Profile from "./Components/Profile/Profile.jsx";
 let myRouter = createBrowserRouter([ 
   {path: "/", element: <Layout />, children: [
     {index: true, element: <GuardOut> <Register /> </GuardOut> },
-    {path: "e-commerce", element: <GuardIn> <Login /> </GuardIn>},
     {path: "register", element: <GuardOut> <Register /> </GuardOut>},
     {path: "login", element: <GuardOut> <Login /> </GuardOut>},
+    {path: "e-commerce", element: <Guard> <Login /> </Guard>},
     {path: "products", element: <GuardIn> <Products /> </GuardIn>},
     {path: "productDetails/:id", element: <GuardIn> <ProductDetails /> </GuardIn>},
     {path: "categories", element: <GuardIn> <Categories /> </GuardIn>},
