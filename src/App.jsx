@@ -21,8 +21,9 @@ import AllOrders from "./Components/AllOrders/AllOrders.jsx";
 import Profile from "./Components/Profile/Profile.jsx";
 
 let myRouter = createBrowserRouter([ 
-  {path: "", element: <Layout />, children: [
+  {path: "/", element: <Layout />, children: [
     {index: true, element: <GuardOut> <Register /> </GuardOut> },
+    {path: "e-commerce", element: <GuardIn> <Login /> </GuardIn>},
     {path: "register", element: <GuardOut> <Register /> </GuardOut>},
     {path: "login", element: <GuardOut> <Login /> </GuardOut>},
     {path: "products", element: <GuardIn> <Products /> </GuardIn>},
