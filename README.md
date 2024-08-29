@@ -12,7 +12,6 @@ FreshCart is a modern e-commerce platform developed using React. It allows users
 - **Payment Methods**: Support for both online and cash payments.
 - **Responsive Design**: The application is fully responsive, ensuring a seamless experience on all devices.
 - **Offline Detection**: The app detects when the user goes offline and provides a suitable user experience.
-- **Loading Indicators**: React Loader Spinner is used to show loading states during data fetching.
 
 ## Installation
 
