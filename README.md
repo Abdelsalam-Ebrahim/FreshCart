@@ -20,4 +20,4 @@ FreshCart is a modern e-commerce platform developed using React. It allows users
    git clone https://github.com/abdelsalam-ebrahim/e-commerce.git
 
 ### Live Demo
-Check out the live demo of the e-commerce website: [E-commerce Live Demo](https://abdelsalam-ebrahim.github.io/e-commerce/)
+Check out the live demo of the e-commerce website: [E-commerce Live Demo](https://abdelsalam-ebrahim.github.io/FreshCart/)
